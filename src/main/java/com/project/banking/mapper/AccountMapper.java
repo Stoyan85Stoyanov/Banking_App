@@ -2,8 +2,9 @@ package com.project.banking.mapper;
 
 import com.project.banking.dto.AccountDto;
 import com.project.banking.entity.Account;
+import lombok.Data;
 
-
+@Data
 public class AccountMapper {
 
     public static Account mapToAccount(AccountDto accountDto) {
