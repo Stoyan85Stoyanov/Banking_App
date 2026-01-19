@@ -3,9 +3,9 @@ package com.project.banking.dto;
 
 public class AccountDto {
 
-    private Long id;
-    private String accountHolderName;
-    private double balance;
+    private final Long id;
+    private final String accountHolderName;
+    private final double balance;
 
     public AccountDto(Long id, String accountHolderName, double balance) {
         this.id = id;
