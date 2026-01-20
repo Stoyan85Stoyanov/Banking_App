@@ -1,6 +1,9 @@
 package com.project.banking.dto;
 
 
+import lombok.Getter;
+
+@Getter
 public class AccountDto {
 
     private final Long id;
@@ -11,17 +14,5 @@ public class AccountDto {
         this.id = id;
         this.accountHolderName = accountHolderName;
         this.balance = balance;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public String getAccountHolderName() {
-        return accountHolderName;
-    }
-
-    public double getBalance() {
-        return balance;
     }
 }
